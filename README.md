@@ -6,9 +6,11 @@ Coursera Getting and Cleaning Data Project
 You can look at the results of this project by reading the output file called ProjectTidyData.csv using read.table.
 
 In order to reproduce the results of this project:
-- Clone the repository at https://github.com/ehodder/Getting-and-Cleaning-Data-Project
+- Clone the repository at https://github.com/ehodder/Getting-and-Cleaning-Data-Project into your working directory
+- Download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+- Extract the zipped data into your working directory
 - Open the run_analysis.R file
-- Be sure that your working directory is set to the folder where you downloaded the repository
+
 
 The when you execute run_analysis.R the script will 
 - pull together the research testing and training sets 
