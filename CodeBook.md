@@ -68,5 +68,5 @@ colnames(dfMeans) <- c("Activity_Name", "Subject", x)
 Finally, write the data to a file. This can be read into R using read.table.
 ```{r eval=FALSE}
 ## write out the results
-write.table(dfMeans, "ProjectTidyData.csv", row.names=FALSE, sep=",")
+write.table(dfMeans, "ProjectTidyData.txt", row.names=FALSE, sep=",")
 ```

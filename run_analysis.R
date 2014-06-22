@@ -38,4 +38,4 @@ x <- paste0(names(dfMeans[, 3:68]), "_Average")
 colnames(dfMeans) <- c("Activity_Name", "Subject", x)
 
 ## write out the results
-write.table(dfMeans, "ProjectTidyData.csv", row.names=FALSE, sep=",")
+write.table(dfMeans, "ProjectTidyData.txt", row.names=FALSE, sep=",")
